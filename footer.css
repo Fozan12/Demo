@@ -1,0 +1,93 @@
+#footer {
+    background-color: #272727;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #c8c8c8;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #c8c8c8;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#logo-section, #quicklinks-section, #contact-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#logo {
+    background-image: url('path-to-your-logo.png'); /* Replace with your logo path */
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#tagline {
+    max-width: 300px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+#quicklinks-section h4, #contact-section h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#quicklinks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#quicklinks-list li {
+    margin-bottom: 5px;
+}
+
+#quicklinks-list li a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 14px;
+}
+
+#quicklinks-list li a:hover {
+    color: #ff6f61;
+}
+
+#contact-section p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#copyright {
+    font-size: 12px;
+    color:#ffffff;
+}
+/* .kipemmbe {
+    position: absolute; 
+    top: 40%; 
+    left: 40%; 
+
+    font-size: 40px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background: linear-gradient(to right, #f32170, 
+            #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+} */
+
+
+.span{
+    color: #ff6f61;
+}
