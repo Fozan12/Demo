@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tactix Digital Marketing</title>
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/slider-review.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <style>
+        /* only header  */
+        /* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #ff6b6b, #f7d794);
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.menu-toggle {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        background: #ff6b6b;
+        border-radius: 5px;
+        width: 200px;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu a {
+        padding: 10px;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+
+    .nav-menu a:last-child {
+        border-bottom: none;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+
+
+    <header class="header">
+        <div class="logo">The Sprouters Officials</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="nav-menu" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="Service.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="conact.html">Contact</a>
+        </nav>
+    </header>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+
+
+
+
+
+
+    <!-- Working Process Section -->
+    <section class="working-process">
+        <h2>We Think, We Plan, We Do</h2>
+        <p class="intro-text">Our experienced team combines strategic thinking, meticulous planning, and hands-on execution to deliver impactful digital marketing solutions tailored to your brand. Trust us to transform your vision into measurable results and drive your business forward.</p>
+        <div class="process-cards">
+            <div class="card">
+                <h3>01</h3>
+                <h4>Researching</h4>
+                <p>Highlight your expertise in market analysis, competitor research, and data-driven insights for effective digital strategies.</p>
+            </div>
+            <div class="card">
+                <h3>02</h3>
+                <h4>Planning</h4>
+                <p>Emphasize your ability to develop strategic digital marketing plans tailored to clients’ goals and target audiences.</p>
+            </div>
+            <div class="card">
+                <h3>03</h3>
+                <h4>Developing</h4>
+                <p>Showcase your proficiency in creating compelling content, designing captivating websites, and implementing effective marketing campaigns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <div class="about-content">
+            <h2>Tech Tactix Digital Marketing, With the Passion of Building Your Brand</h2>
+            <p>Tech Tactix is a cutting-edge digital marketing agency fueled by a deep passion for building and enhancing brands. With a dynamic team of experts, we offer a comprehensive range of services designed to boost your brand’s online presence and drive tangible results.</p>
+            <p>From strategic marketing planning and social media management to search engine optimization and content creation, Tech Tactix leverages the latest technologies and industry best practices to deliver targeted, measurable solutions. We understand the ever-evolving digital landscape and tailor our strategies to suit your unique business goals. With Tech Tactix by your side, you can unlock the full potential of your brand and create a lasting impact in the digital realm.</p>
+            <div class="stats">
+                <div>
+                    <h3>400 +</h3>
+                    <p>Complete Projects</p>
+                </div>
+                <div>
+                    <h3>15 +</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div>
+                    <h3>560 +</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="Image/working.jpg" alt="Person working with a laptop and coffee">
+        </div>
+    </section>
+
+
+
+
+
+    <div class="container">
+        <!-- Existing Review Boxes -->
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Excellent service, highly recommended!"</p>
+            <p>Name</p>
+        </div>
+        <!-- Add More Review Boxes Below -->
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Great experience, very satisfied."</p>
+            <p>Name</p>
+        </div>
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Will definitely use this service again."</p>
+            <p>Name</p>
+        </div>
+        <!-- More Boxes -->
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Amazing work and fast turnaround."</p>  
+                <p>Name</p>
+        </div>
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Professional and efficient, very happy."</p>
+            <p>Name</p>
+        </div>
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Top-notch quality and service."</p>
+            <p>Name</p>
+        </div>
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Exceeded my expectations, highly recommend."</p>
+            <p>Name</p>
+        </div>
+        <div class="box">
+            <div>
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+                <img src="star.png" alt="Star">
+            </div>
+            <p>"Fantastic job, very pleased with the results."</p>
+            <p>Name</p>
+        </div>
+        <div class="box">
+          <div>
+              <img src="star.png" alt="Star">
+              <img src="star.png" alt="Star">
+              <img src="star.png" alt="Star">
+              <img src="star.png" alt="Star">
+              <img src="star.png" alt="Star">
+          </div>
+          <p>"Fantastic job, very pleased with the results."</p>
+          <p>Name</p>
+      </div>
+        <!-- Additional boxes can be added here -->
+      </div>
+      
+      
+
+
+
+
+
+
+
+
+
+
+      <div id="footer">
+        <div id="footer-content">
+            <div id="logo-section">
+              <img src="WhatsApp Image 2024-08-14 at 16.05.57_fb7811d4.jpg" alt="" width="100vh">
+                <div id="logo" class="footer-item"></div>
+                <p id="tagline" class="footer-item">A full-service digital agency helps businesses outgrow their competition through creative solutions to your business problems.</p>
+            </div>
+            <div id="quicklinks-section">
+                <h4 class="footer-item"> <span  class="span">Quicklinks</span></h4>
+                <ul id="quicklinks-list">
+                    <li class="footer-item"><a href="index.html">Home</a></li>
+                    <li class="footer-item"><a href="about.html">About Us</a></li>
+                    <li class="footer-item"><a href="Service.html">Services</a></li>
+                    <li class="footer-item"><a href="conact.html">Contact Us</a></li>
+                    <li class="footer-item"><a href="Privacy Policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+      
+            <div id="contact-section">
+                <h4 class="footer-item">
+      
+                  
+                    <span class="span">Find Us</span>
+      
+      
+                </h4>
+                <p id="address" class="footer-item">Address</p>
+                <p id="email" class="footer-item">thesproutersofficials@gmail.com</p>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <p id="copyright" class="footer-item">Copyright © 2024 The sprouters officials</p>
+         </div>
+      </div>
+      
+      
+
+
+
+
+
+
+</body>
+</html>
