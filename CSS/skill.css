@@ -1,0 +1,64 @@
+.skills-section {
+    background-color: #f9f3ef;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.section-subtitle {
+    color: #ff6f61;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.skill-bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-bar {
+    width: 85%;
+    background-color: #e0e0e0;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.skill-percentage {
+    height: 100%;
+    background-color: #ff6f61;
+    border-radius: 3px;
+}
+
+.percentage-label {
+    font-size: 16px;
+    color: #333;
+    margin-left: 10px;
+    min-width: 35px;
+    text-align: right;
+}

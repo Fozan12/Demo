@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylee.css">
+    <link rel="icon" type="image/x-icon" href="WhatsApp Image 2024-08-14 at 16.05.57_fb7811d4.jpg">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST" class="styled-form">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="683d0351-1e4c-4c34-98a8-d3ebf72ef52d">
+        
+        <!-- Form Inputs -->
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" name="name" id="name" required class="form-input">
+        
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" name="email" id="email" required class="form-input">
+        
+        <label for="message" class="form-label">Message:</label>
+        <textarea name="message" id="message" required class="form-textarea"></textarea>
+        
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+        <!-- Custom Confirmation / Success Page -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        
+        <button type="submit" class="form-button">Send</button>
+    </form>
+    
+</body>
+</html>
